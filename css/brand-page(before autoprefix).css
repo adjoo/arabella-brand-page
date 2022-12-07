@@ -150,6 +150,7 @@ body{
 .a_brandName img{ max-width: 120% }
 
 .a_gridColumnsTemplate-9{
+    margin-bottom: var(--gap);
     grid-template-columns: repeat(9, 1fr);
     grid-template-areas:
             "a a b b c c . . ."
