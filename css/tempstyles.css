@@ -1,0 +1,50 @@
+/*этот файл не нужен, он выставляет стили, которые применены ко всем страницам сайта*/
+
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    width: 100%;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,sans-serif;
+    font-size: 12px;
+    color: #0d1f2d;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    background-color: #f5f5f5;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+
+}
+a {
+    color: #a101a6;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: Montserrat,sans-serif;
+    transition: all .2s ease;
+}
+a:hover {
+    color: #d600dd;
+    text-decoration: none;
+}
+.bx-newsdetail-img, .bx-newsdetail-audio, .bx-newsdetail-youtube, .bx-newsdetail-slider {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*section > div {
+    outline: 1px solid red;
+}
+section > div > div {outline: 1px solid blue;}
+section > div > div > div {outline: 1px solid green;}*/
